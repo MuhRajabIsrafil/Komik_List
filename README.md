@@ -1,6 +1,9 @@
 # Komik_List
 
-Nama:   Muh Rajab Israfil\n
-NIM:    D121191035\n
-Prodi:  Teknik Infromatika\n
+Nama:   Muh Rajab Israfil
+
+NIM:    D121191035
+
+Prodi:  Teknik Infromatika
+
 Kelas:  B
