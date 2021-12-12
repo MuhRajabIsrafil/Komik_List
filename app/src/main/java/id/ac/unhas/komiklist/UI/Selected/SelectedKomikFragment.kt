@@ -39,9 +39,10 @@ class SelectedKomikFragment : Fragment() {
         shareBtn.setOnClickListener{
             val title = StaticData.title.toUpperCase()
             val score = StaticData.score
+            val source = StaticData.url
             val sendIntent: Intent = Intent().apply {
                 action = Intent.ACTION_SEND
-                putExtra(Intent.EXTRA_TEXT, "Nama Anime : $title \nScore : $score")
+                putExtra(Intent.EXTRA_TEXT, "Nama Anime : $title \nScore : $score \nSumber : $source")
                 type = "text/plain"
             }
 
